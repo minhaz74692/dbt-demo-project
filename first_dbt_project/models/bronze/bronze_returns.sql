@@ -4,7 +4,7 @@
     schema = 'bronze'
     )
 }}
-
+ 
 SELECT 
     * 
 FROM 
