@@ -18,6 +18,10 @@ models:
         data_tests:
           - unique
           - not_null
+      
+      - name: gross_amount
+        data_tests:
+          - generate_non_negetive
 
           
   - name: bronze_store
@@ -42,6 +46,8 @@ models:
                 values: ['USA' , 'Canada']
               config:
                 severity: warn
+
+      
       
 
                 
