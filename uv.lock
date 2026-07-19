@@ -511,7 +511,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "dbt-core", specifier = ">=0.14.4" },
+    { name = "dbt-core", specifier = ">=1.11.12" },
     { name = "dbt-databricks", specifier = ">=1.12.2" },
 ]
 
