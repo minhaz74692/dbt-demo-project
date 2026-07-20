@@ -1,0 +1,1 @@
+{%- set var_name = "Minhazul Islam" -%}{{ var_name }}
