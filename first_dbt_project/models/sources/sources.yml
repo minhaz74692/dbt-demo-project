@@ -1,6 +1,6 @@
 sources:
   - name: source
-    database: dbt_tutorial  # Our catalog name in databricks is "dbt_tutorial"
+    database: '{{target.catalog}}'  # Our catalog name in databricks is "dbt_tutorial"
     schema: source  # Our schema name in databricks is "source"
     tables:
       - name: fact_sales
